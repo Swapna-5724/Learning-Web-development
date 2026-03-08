@@ -3,8 +3,8 @@ html{
 }
 #percentages {
     background-color: #6d6875;
-    width: 800px;
-    height: 800px;
+    width: 80px;
+    height: 80px;
 }
 
 #percentages div{
@@ -13,7 +13,7 @@ html{
     height: 20%;
 }
 #rems h2{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 #rems h3{
     font-size: 2rem;
