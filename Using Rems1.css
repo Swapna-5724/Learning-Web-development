@@ -1,0 +1,49 @@
+/* em, rem */
+
+
+section {
+    background-color: #6d6875;
+    width: 800px;
+    height: 800px;
+}
+
+div {
+    background-color: #e46ede;
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 80px;      /*  200%  */   
+}
+
+h2 {
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+h3 {
+    font-size: 0.8em;
+}
+
+p {
+    font-size: 0.8em;    /*1em*/
+}
+
+article {
+    font-size: 20px;
+}
+
+button {
+    font-size: 30px;
+    padding: 0 30px;
+    border-radius: 15px;
+    background-color: #2a9d8f;
+    color: rgb(155, 16, 16);
+}
+
+/* ul {
+    font-size: 1.5em;
+} */
