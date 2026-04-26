@@ -33,7 +33,7 @@ console.log("CONGRATS YOU GOT THE SECRET!!!")
 // }
 // console.log("OK YOU WIN!")
 
-    //  OR
+//      OR
 
 let input = prompt("Hey, say something!")
 while (true) {
