@@ -41,7 +41,7 @@ while (true) {
     if(input.toLowerCase === "stop copying me") break;
     
 }
-console.log("OK YOU WIN!")
+console.log("OK, YOU WIN!")
 
 for (let i =0; i < 1000; i++) {
     console.log(i);
