@@ -172,3 +172,34 @@ movies.filter(m => m.score > 80).map(m = > m.title);
 const badMovies = movies.filter(m => m.score < 70)
 
 const recentMovies = movies.filter(m => m.year > 2000)
+
+
+// video :-> 236 Some and Every Methods
+
+const exams = [80, 98, 92, 78, 77, 90, 89, 84, 81, 77]
+
+exams.every(score => score >= 75)
+exams.some(score => score >= 75)
+
+movies.some(movie => movie.year > 2015)
+
+
+// video :-> 237 The Notorious Reduce Method
+
+const prices = [9.99, 1.50, 19.99, 49.99, 30.50];
+
+let total = 0;
+for(let price of prices) {
+    total += price
+}
+console.log(total)
+
+const total = prices.reduce((total, price) => {
+    return total + price
+})
+
+const total = prices.reduce((total, price) => total + price)
+
+prices.reduce((min, price) => {
+    
+})
