@@ -61,3 +61,22 @@ const add = (a, b) => a + b
 
 //  Video :-> 233 Arrow Functions wrapup
 
+movies.map(function(movie) {
+    return `${movie.title} - ${movie.score / 10}`
+})
+
+
+const newMovies movies.map(function(movie) {
+    return `${movie.title} - ${movie.score / 10}`
+})
+
+
+const newMovies = movies.map(movie => (
+    return `${movie.title} - ${movie.score / 10}`
+))
+
+
+const newMovies = movies.map(movie => `${movie.title} - ${movie.score / 10}`)
+
+// Video :-> 234 setTime and setInterval
+
