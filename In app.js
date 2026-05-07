@@ -200,6 +200,6 @@ const total = prices.reduce((total, price) => {
 
 const total = prices.reduce((total, price) => total + price)
 
-prices.reduce((min, price) => {
+const prices.reduce((min, price) => {
     
 })
