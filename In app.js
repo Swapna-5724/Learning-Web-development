@@ -269,6 +269,7 @@ const evens = [2, 4, 6, 8];
 evens.reduce((sum, num) => sum + num, 100)
 
 
+
 // video :-> 238 Arrow Functions & 'this'
 
 const person = {
