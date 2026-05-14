@@ -22,3 +22,6 @@ allImages.map
 allImages.askdkjaslkdjas
 allImages.length
 const allImages = document.getElementByTagName('img')
+
+
+
