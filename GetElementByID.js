@@ -49,9 +49,54 @@ document.getElementById('asdsd')
 
 //   video:-> 253  querySelector &querySelectorAll
 
+const links = document.querySelectorAll('p a');
 
+for(let link of links) {
+    console.log(link.href)
+}
 
 // In console:
 
 document.querySelector('p')
-document.getElementById
+document.getElementsByTagName('p')
+document.querySelector('#banner')
+document.querySelector('.square')
+document.querySelector('img:nth-of-type(2)')
+
+document.querySelector('a[title="Java"]')
+document.querySelectorAll('p')
+document.querySelector('p')
+document.querySelectorAll('img')
+document.querySelectorAll('a')
+document.querySelectorAll('p a')
+
+
+// video:-> 254 innerHTML,textContent, &innerText
+
+const allLinks = document.querySelectorAll('a');
+
+for (let link of allLinks) {
+    link.innerText = 'I AM A LINK!!!!!'
+}
+
+
+// In console:-
+document.querySelector('h1')
+const h1 = document.querySelector('h1')
+console.dir(h1)
+document.querySelector('p').innerText = 'lolololol'
+document.querySelector('p').textContent
+document.querySelector('p').innerText
+
+document.querySelector('h1').innerText = <i>askdjas<i/>
+
+document.querySelector('h1').innerHTML
+document.querySelector('h1').innerText
+document.querySelector('p').innerText
+
+document.querySelector('h1').innerText = '<i>askdjas<i/>'
+document.querySelector('h1').innerHTML = '<i>askdjas<i/>'
+document.querySelector('h1').innerHTML
+document.querySelector('h1').innerHTML += '<sup>asjdsa</sup>'
+document.querySelector('p').innerText = '<b>askdjas</b>'
+document.querySelector('p').innerText = <b>aklsjdas</b>
