@@ -100,3 +100,38 @@ document.querySelector('h1').innerHTML
 document.querySelector('h1').innerHTML += '<sup>asjdsa</sup>'
 document.querySelector('p').innerText = '<b>askdjas</b>'
 document.querySelector('p').innerText = <b>aklsjdas</b>
+
+
+
+//  255:- attributes
+
+
+
+
+
+//  In console:-
+document.querySelector('#banner')
+document.querySelector('#banner').id
+document.querySelector('#banner').id 
+document.querySelector('#banner').id = 'whoops'
+document.querySelector('#banner').id = 'banner'
+document.querySelector('#whoops').id = 'banner'
+document.querySelector('#banner').src
+document.qurerySelector('a').href
+document.querySelector('a').title
+const firstLink = document.querySelector('a')
+firstLink.href
+firstLink.getAttributes('href')
+firstLink.getAttributes('id')
+firstLink.getAttributes('class')
+firstLink.getAttributes('title')
+firstLink.setAttributes('href','http://www.google.com')
+
+document.querySelector('input')
+document.querySelectorAll('input')[1]
+document.querySelector('input[type ="text"]')
+const input = document.querySelector('input[type="text"]')
+input.type
+input.type = 'password'
+input.type = 'color'
+input.setAttributes('type', 'text')
