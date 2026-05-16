@@ -135,3 +135,50 @@ input.type
 input.type = 'password'
 input.type = 'color'
 input.setAttributes('type', 'text')
+
+
+
+
+// 256 :-  Changing Styles
+
+h1 {
+    color: olive;
+}
+
+for(let link of allLinks) {
+    link.style.color = 'rgb(0, 108, 134)';
+    link.style.textDecorationColor = 'magenta';
+    link.style.textDecorationStyle = 'wavy';
+}
+
+
+
+
+// Console:
+
+
+const h1 = document.querySelector('h1');
+h1
+h1.style
+font-size
+
+h1.style.color
+h1.style
+
+h1.style.color = 'green'
+
+h1.style.fontsize = '3em'
+
+h1.style.border = '2px solid pink'
+
+
+const h1 =
+document.querySelector('h1')
+h1.style.fontSize
+window.getComputedStyle(h1)
+
+window.getComputedStyle(h1).color
+window.getComputedStyle(h1).fontSize
+window.getComputedStyle(h1).fonFamily
+window.getComputedStyle(h1).marginLeft
+window.getComputedStyle(h1).margin
