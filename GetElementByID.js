@@ -182,3 +182,100 @@ window.getComputedStyle(h1).fontSize
 window.getComputedStyle(h1).fonFamily
 window.getComputedStyle(h1).marginLeft
 window.getComputedStyle(h1).margin
+
+
+// video:- 257: ClassList
+
+In console:
+
+const h2 = document.querySelector(history)
+h2.getAttribute('class')
+h2.setAttribute('class', 'purple')
+h2.setAttribute('class', 'border')
+let currentClasses = h2.getAttribute('class')
+currentClasses
+h2.setAttribute('class', `${currentClasses} purple`)
+
+const h2 = document.querySelector('h2')
+h2.ClassList
+h2.ClassList
+h2.classList.add('purple')
+h2.classList.add('border')
+h2.classList.remove('border')
+h2.classList.contains('purple')
+
+h2.classList.toggle('purple')
+h2.classList.toggle('purple')
+h2.classList.toggle('purple')
+
+
+h2.getAttribute('class')
+
+
+
+
+
+// video:- 258 Traversing Parent/Child/Sibling
+
+const firstBold = document.querySelector('b')
+firstBold
+firstBold.ParentElement
+firstBold.ParentElement.ParentElement
+firstBold.ParentElement.ParentElement.ParentElement
+const paragraph = firstBold.ParentElement
+paragraph.children
+paragraph.children[0]
+paragraph.children[0].ParentElement
+
+
+const squareImg = document.querySelector('.square')
+squareImg.ParentElement
+squareImg.children
+
+{/* Sibling Properties */}
+
+squareImg
+squareImg.previousElementSibling
+squareImg.nextElementSibling
+squareImg.nextSibling
+squareImg.previousSibling
+sqaureImg.nextElementSibling
+sqaureImg.previousElementSibling
+
+
+
+//  video:- 259  Append & AppendChild
+
+In Console:
+
+document.createElement('img')
+const newImg = document.createElement('img')
+console.dir(newImg)
+
+document.body.appendChild(newImg)
+newImg.classList.add('square')
+const newH3 = document.createElement('h3')
+newH3
+newH3.innerText = 'I am new!'
+document.body.appendChild(newH3)
+
+const p = document.querySelector('p')
+p.append('i am new text yaaaaaaaaayy!!!')
+p.appendChild('i am new text yaaaaaaaaayy!!!')
+p.appendChild('i am new text yaaaaaaaaayy!!!', 'asdasdasdasdasdasdasdasd')
+const newB = document.createElement('b')
+newB.append('Hi')
+newBp.prepend(newB)
+
+
+const h2 = document.createElement('h2')
+h2.append("Are adorable chickens")
+h2
+const h1 = document.querySelector('h1')
+h1.insertAdjacentElement()
+h1.insertAdjacentElement('afterend', h2)
+h1.nextElementSibling
+
+const h3 = document.createElement('h3')
+h3.innerText = 'I am h3';
+h1.after(h3)
