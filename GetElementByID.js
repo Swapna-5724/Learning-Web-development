@@ -279,3 +279,21 @@ h1.nextElementSibling
 const h3 = document.createElement('h3')
 h3.innerText = 'I am h3';
 h1.after(h3)
+
+
+
+
+//  video :-> 260  removeChild & remove
+
+const fistLi = document.querySelector('li')
+fistLi
+const ul = fisrtLi.ParentElement
+ul
+ul.removeChild(fisrtLi)
+const b = document.querySelector('b')
+
+b
+b,ParentElement.removeChild(b)
+const img = document.querySelector('img')
+img.remove()
+img.ParentElement.removeChild(img)
