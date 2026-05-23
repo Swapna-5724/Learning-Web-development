@@ -103,13 +103,13 @@ document.querySelector('p').innerText = <b>aklsjdas</b>
 
 
 
-//  255:- attributes
+{/* //  255:- attributes */}
 
 
 
 
 
-//  In console:-
+{/* //  In console:- */}
 document.querySelector('#banner')
 document.querySelector('#banner').id
 document.querySelector('#banner').id 
@@ -139,7 +139,7 @@ input.setAttributes('type', 'text')
 
 
 
-// 256 :-  Changing Styles
+{/* // 256 :-  Changing Styles */}
 
 h1 {
     color: olive;
@@ -154,7 +154,7 @@ for(let link of allLinks) {
 
 
 
-// Console:
+{/* // Console: */}
 
 
 const h1 = document.querySelector('h1');
@@ -184,7 +184,7 @@ window.getComputedStyle(h1).marginLeft
 window.getComputedStyle(h1).margin
 
 
-// video:- 257: ClassList
+{/* // video:- 257: ClassList */}
 
 In console:
 
@@ -215,7 +215,7 @@ h2.getAttribute('class')
 
 
 
-// video:- 258 Traversing Parent/Child/Sibling
+{/* // video:- 258 Traversing Parent/Child/Sibling */}
 
 const firstBold = document.querySelector('b')
 firstBold
@@ -244,7 +244,7 @@ sqaureImg.previousElementSibling
 
 
 
-//  video:- 259  Append & AppendChild
+{/* //  video:- 259  Append & AppendChild */}
 
 In Console:
 
@@ -283,7 +283,7 @@ h1.after(h3)
 
 
 
-//  video :-> 260  removeChild & remove
+{/* //video :-> 260  removeChild & remove */}
 
 const fistLi = document.querySelector('li')
 fistLi
@@ -292,7 +292,7 @@ ul
 ul.removeChild(fisrtLi)
 const b = document.querySelector('b')
 
-b
+
 b,ParentElement.removeChild(b)
 const img = document.querySelector('img')
 img.remove()
