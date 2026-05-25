@@ -12,6 +12,16 @@ function scream() {
 
 btn.onmouseenter = scream;
 
+// document.querySelector('h1').onclick = function () {
+//     alert('you clicked the h1!')
+// }
+
+document.querySelector('h1').onclick = function () = alert('you clicked the h1!')
+
+document.querySelector('h1').onclick = () => {
+    alert('you clicked the h1')
+}
+
 
 // In Console:
 
