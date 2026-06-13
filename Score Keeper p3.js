@@ -61,8 +61,8 @@ resetButton.addEventListener('click', reset)
 
 function reset() {
     isGameOver = false;
-    p1Score = 0;
-    p2Score = 0;
+    p1.Score = 0;
+    p2.Score = 0;
     p1Display.textContent = 0;
     p2Display.textContent = 0;
     p1Display.classList.remove('has-text-success', 'has-text-danger');
