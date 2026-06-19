@@ -1,0 +1,25 @@
+new Promise((resolve, reject) => {
+    resolve();
+    // reject();
+})
+
+const fakeRequest = (url) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve();
+        }, 1000)
+    })
+}
+
+fakeRequest('/dogs/1')
+.then(() => {
+    console.log("DONE WITH REQUEST!")
+})
+
+
+
+
+// IN CONSOLE:
+
+const req = fakeRequest()
+req
