@@ -72,6 +72,29 @@ async function rainbow() {
     return "ALl DONE!"
 }
 
-rainbow().then(() => console.log("END OF RAINBOW"))
+// rainbow().then(() => console.log("END OF RAINBOW!"))
+
+async function printRainbow() {
+    await rainbow();
+    console.log("END OF RAINBOW!")
+}
+
+// printRainbow();
+
+const fakeRequest = (url) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            if (delay > 4000) {
+                reject('Connection Timeout :(')
+            } else {
+                resolve(`Here is your fake data from ${url}`)
+            }
+        }, delay)
+    })
+}
 
 
+async makeTwoRequest(){
+    let data1 = await fakeRequest('/page1');
+    console.log(data1);
+}
