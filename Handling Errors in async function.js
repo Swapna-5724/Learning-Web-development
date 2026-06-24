@@ -3,6 +3,7 @@ new Promise((resolve, reject) => {
     resolve();
 })
 
+
 const fakeRequest = (url) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -118,6 +119,7 @@ async function makeTwoRequests() {
 // } catch (e) {
 //     console.log('ITS')
 // }
+
 
 
 
