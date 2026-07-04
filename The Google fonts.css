@@ -5,23 +5,28 @@ h1 {
 
 }
 
+
 main {
     width: 60%;
     margin: 0 auto;
 }
+
 
 h1 {
    font-size: 3rem;
    margin-bottom: 0;
 }
 
+
 h2 {
     color: #6f6fea;
 }
 
+
 h1 + h2 {
     margin-top: 0;
 }
+
 
 h1, h2,h3 {
     font-family: Roboto,sans-serif;
