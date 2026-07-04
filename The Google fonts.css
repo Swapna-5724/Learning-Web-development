@@ -1,5 +1,6 @@
 h1 {
     font-family: Roboto, sans-serif;
+    color: blue;
     /* Roboto -> Montserrat */
 
 }
@@ -12,6 +13,10 @@ main {
 h1 {
    font-size: 3rem;
    margin-bottom: 0;
+}
+
+h2 {
+    color: #6f6fea;
 }
 
 h1 + h2 {
