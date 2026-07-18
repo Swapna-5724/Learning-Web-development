@@ -51,13 +51,15 @@ delayedColorChange('red', 1000, () => {
     console.log("INSIDE CALLBACK!!!!")
 });
 
-delayedColorChange('violet', 1000, () =>{
-    delayedColorChange('red', 1000, () => {
-        delayedColorChange('orange', 1000, () => {
-            delayedColorChange('yellow', 1000, () => {
-                delayedColorChange('green', 1000, () => {
-                    delayedColorChange('blue', 1000, () => {
-            
+delayedColorChange('white', 1000, () =>{
+    delayedColorChange('violet', 1000, () =>{
+        delayedColorChange('red', 1000, () => {
+            delayedColorChange('orange', 1000, () => {
+                delayedColorChange('yellow', 1000, () => {
+                    delayedColorChange('green', 1000, () => {
+                        delayedColorChange('blue', 1000, () => {
+                            
+                        })
                     })
                 } )
             } )
