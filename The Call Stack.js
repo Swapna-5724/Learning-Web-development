@@ -13,13 +13,7 @@ console.log("DONEEEE!")
 
 
 
-
-
-
 // latenflip.com/loupe/    ->   In Google
-
-
-
 
 
 
