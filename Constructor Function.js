@@ -112,6 +112,8 @@ color2.hex()
 
 
 
+
+
 //   IN CONSOLE:
 //   new Array()
 //   new String()
