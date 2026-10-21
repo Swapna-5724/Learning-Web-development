@@ -40,9 +40,6 @@ class Dog extends Pet{
 
 
 
-
-
-
 // class Cat {                                  //   1st time 
 //     constructor(name, age){
 //         this.name = name;
