@@ -1,0 +1,65 @@
+// -  cd..
+// -      > ls
+// -      > app.js  math.js  shelter
+// - mkdir Artster
+// - ls
+// -      > app.js  math.js  shelter
+// - cd Artster
+// - ls
+// - npm init
+
+
+
+{
+    "name": "artster",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Colt Steele",
+    "license": "ISC"
+    "dependencies": {
+        "figlet": "^1.5.0"
+    }
+}
+
+// - ls
+// - npm i figlet
+
+// - touch index.js
+
+
+//   In index.js file
+ 
+const figlet = require("figlet")
+const colors = require("colors")
+figlet("Hello World", function(err, data) {
+    if (err) {
+        console.log("Something went wrong...");
+        console.dir(err);
+        return;
+    }
+    console.log(data)
+});
+
+
+// - touch index.js
+// - node index.js
+// - ks
+// - ls
+// - npm i colors
+
+
+
+
+
+
+
+
+
+
+
+//    Google Search:  npmjs.com
+
