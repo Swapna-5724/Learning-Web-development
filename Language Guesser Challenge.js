@@ -14,7 +14,7 @@
 // - node index.js 'asdas'
 // -             >   could not match a language. Please try again with a larger sample
 
-// - clear           ->         try with a scratch file
+// - clear          ->        try with a scratch file
 
 // - ls
 // - npm init
@@ -87,103 +87,6 @@ if(langCode === 'und'){
 
 // - node index.js 'bonjour je suis colt'
 // -          > Our best guess is: French
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
