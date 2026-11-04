@@ -63,6 +63,7 @@ console.log(language.name);
 // - node index.js 'asdas'
 
 
+
 const franc = require("franc");
 const langs = require("langs");
 const colors = require("colors")
