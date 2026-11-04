@@ -86,8 +86,6 @@ if(langCode === 'und'){
 
 // - node index.js 'bonjour je suis colt'
 // -          > Our best guess is: French
-// - node index.js 'asd'
-// -          > SORRY, COULDN'T FIGURE IT OUT! TRY WITH MORE SAMPLE TEXT
 
 
 
