@@ -21,6 +21,12 @@ app.get('/r/:subreddit', (req, res) => {
     res.send(`<h1>Browsing the ${subreddit} subreddit</h1>`)
 })
 
+app.get('/r/:subreddit/comments/:postId', (req, res) => {
+    const { subreddit } = req.params;
+    res.send(`<h1>Viewing Post ID: ${postId} on the ${subreddit} $subreddit</h1>`)
+})
+
+
 app.post('/cats', (req, res) => {
     res.send('POST REQUEST TO /cats!! THIS IS DIFFERENT THAN A GET REQUEST')
 })
@@ -50,4 +56,5 @@ app.get('/dogs', (req, res) => {
 app.listen(8080, () => {
     console.log("LISTENING ON PORT 8080!")
 })
+
 
