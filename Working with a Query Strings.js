@@ -1,11 +1,12 @@
 const express = require('express');
 const app = express();
 
+
+
 // app.use((req, res) => {
 //     console.log("WE GOT A NEW REQUEST!!")
 //     res.send('<h1>This is my webpage!</h1>')
 // })
-
 
 
 
@@ -50,9 +51,13 @@ app.get('*', (req, rees) => {
 })
 
 
+
+
+
 // /cats => 'meow'
 // /dogs => 'woof'
 // '/'  
+
 
 
 
@@ -64,4 +69,8 @@ app.listen(8080, () => {
 
 
 
+
+
+
 //  Google searh for output    ->    localhost:8080/search?q=dog
+
