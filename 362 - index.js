@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-app.set('vie engine', 'ejs');
+app.set('view engine', 'ejs');
 app.set('view', path.join(__diename, '/views'))
 
 app.get('/', (req, res) => {
@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/r/:subreddit',(req, res) => {
-    const {subreddit} = req.params 
+    const { subreddit } = req.params; 
     res.render('subreddit', { subreddit });
 })
 
